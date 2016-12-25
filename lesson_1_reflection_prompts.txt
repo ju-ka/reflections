@@ -1,33 +1,49 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    Fill in your answer here
+    The command shows the lines that were added and removed between the two versions.
+    You can see what changes were introduced as well as a possible bug.
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-    Fill in your answer here
-
+    You can investigate the changes made between the different versions
+    to see what went wrong or what worked best.
+    
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    Fill in your answer here
+    Pros:
+        You can track your commits using your own workflow. 
+        Commit one step at a time, allowing control over your versions.
+
+    Cons: 
+        You can forget to commit.
+        You commit too much/not enough.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Fill in your answer here
+    Git is mainly used for code projects, involving one or more connected files.
+    Since one change in a file can affect elsewhere, you might want to track the whole.
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
+    git log 
+        Show a branch/repo commit history.
+        Show which files were modified.
+
+    git diff 
+        Show a file history between commits.
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+    You can go back and forward without fear of disturbing production code.
+    You can test out things, be more creative.  
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    Share and discover projects. Contribute and improve over time.
+    
