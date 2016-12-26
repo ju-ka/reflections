@@ -1,0 +1,44 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    Git creates a git repository locally and adds an hidden directory called .git.
+    Git commands only work in the initialized git repo and its sub-folders.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+    The staging area is not permanent like the repository.
+    If offers a temporary place to check and validate changes since you can control
+    what goes to the next commit.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+    You can use git diff --staged to view all the changes staged
+    after your last commit.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+    You can use branches to compartiment your coding process for:
+        bug fixes,
+        new features,
+        etc...
+
+How do the diagrams help you visualize the branch structure?
+    
+    It helped me visualize and understand the concept of reachability.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    When merging two branches, a new commit is created.
+    Commits from both branches are visible and added according to their timestamps.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+    Pros:
+        It saves time.
+
+    Cons:
+        Beware of merge conflicts!
